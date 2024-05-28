@@ -2,11 +2,11 @@
 
 Here you'll find the practical work I did following the “Devops in Action” guide.
 
-> [!NOTE]
-> Rather than cluttering up my README, I've chosen to write reports for each part of the TP. They contain my answers to the questions asked, relevant code extracts and screenshots illustrating the various results obtained. You can consult these reports on this repository by following this link: [#Reports](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/tree/main/frontend)
+> [!IMPORTANT]
+> Rather than cluttering up my README, I've chosen to write reports for each part of the TP. They contain my answers to the questions asked, relevant code extracts and screenshots illustrating the various results obtained. You can consult these reports on this repository by following this link : [#Reports](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/tree/main/frontend)
 
 
-## Part 1 - Docker Session
+## Part 01 - Docker Session
 
 The aim of this part is to implement a three-tier web application, consisting of an HTTP server, a backend API and a database, using Docker containers for each component.
 
@@ -20,19 +20,41 @@ The project is divided into three main parts:
 
 3. HTTP Server: This part deals with the deployment of an HTTP server, such as the Apache HTTP Server, to serve a static home page. We also configure this server as a reverse proxy to redirect traffic to our backend API.
 
-> [!IMPORTANT]
-> Pour une vue d'ensemble complète du travail que j'ai réalisé, veuillez consulter le rapport complet au format PDF. Vous pouvez accéder au rapport en utilisant le lien suivant :
+> [!NOTE]
+> You can access the report for this section using the following link : [#part01_report](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/tree/main/frontend)
 
 
-[@TP1_report](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/tree/main/frontend)
+## Part 02 - Docker Session
 
-## Part 1 - Docker Session
+In this part of the course, we'll be diving into the world of GitHub Actions. The aim is to set up a complete pipeline for testing and delivering our software application using GitHub Actions.
 
+## Structure
 
-[@TP1_report](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/tree/main/frontend)
+The project is divided into several main sections:
+
+1. Setup GitHub Actions
+
+    First Steps into the CI World: Create a YAML file to define the continuous integration steps, with automatic tests on every commit.
+    Build and Test Your Application: Use Maven to build and test the Java application, including unit and integration tests.
+    First Steps into the CD World: Set up continuous delivery by creating and publishing Docker images to Docker Hub on every commit to the main branch.
+
+2. Setup Quality Gate
+
+    SonarCloud: Integrate SonarCloud to analyze code quality and ensure it adheres to best development practices.
+
+3. Bonus: Split Pipelines (Optional)
+
+    Separate Pipelines: Organize jobs into distinct workflows for better management and conditional triggering based on successful test completion.
+
+> [!NOTE]
+> You can access the report for this section using the following link : [#part01_report](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/tree/main/frontend)
+
 
 ## Part 2 - GitHub Action Session
 
+## Structure
 
 
-[@TP1_report](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/tree/main/frontend)
+> [!NOTE]
+> You can access the report for this section using the following link : [#part01_report](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/tree/main/frontend)
+
