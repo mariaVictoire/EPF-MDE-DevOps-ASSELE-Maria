@@ -22,4 +22,4 @@ jobs:
           java-version: '17'
 
       - name: Build and test with Maven
-        run: mvn clean verify -f "C:/Users/assel/Documents/EPF-MDE-DevOps-ASSELE-Maria/Docker-compose/backend/pom.xml"
+        run: mvn clean verify -f "./backend/pom.xml"
