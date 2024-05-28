@@ -38,21 +38,21 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: "./backend"
-          push: true
+          push: ${{ github.ref == 'refs/heads/main' }}
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/docker-compose-backend:latest
 
       - name: Build and push database image
         uses: docker/build-push-action@v2
         with:
           context: "./database"
-          push: true
+          push: ${{ github.ref == 'refs/heads/main' }}
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/docker-compose-database:latest
 
       - name: Build and push frontend image
         uses: docker/build-push-action@v2
         with:
           context: "./frontend"
-          push: true
+          push: ${{ github.ref == 'refs/heads/main' }}
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/docker-compose-frontend:latest
 
 
