@@ -39,20 +39,20 @@ jobs:
         with:
           context: ./Docker-compose/backend
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/tp-devops-backend:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/docker-compose-backend:latest
 
       - name: Build and push database image
         uses: docker/build-push-action@v2
         with:
           context: ./Docker-compose/database
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/tp-devops-backend:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/docker-compose-database:latest
 
       - name: Build and push frontend image
         uses: docker/build-push-action@v2
         with:
           context: ./Docker-compose/frontend
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/tp-devops-backend:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/docker-compose-frontend:latest
 
 
