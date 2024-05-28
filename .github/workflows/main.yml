@@ -22,7 +22,7 @@ jobs:
           java-version: '17'
 
       - name: Build and test with Maven
-        run: mvn clean mvn -B verify sonar:sonar -Dsonar.projectKey=devops-project-atmv_analyze-devops -Dsonar.organization=devops-project-atmv -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=${{ secrets.SONAR_TOKEN }}  --file ./simple-api/pom.xml
+        run: mvn clean -B verify sonar:sonar -Dsonar.projectKey=devops-project-atmv_analyze-devops -Dsonar.organization=devops-project-atmv -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=${{ secrets.SONAR_TOKEN }}  --file ./simple-api/pom.xml
 
 
   build-and-push-docker-image:
