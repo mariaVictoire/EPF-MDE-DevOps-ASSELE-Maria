@@ -22,6 +22,10 @@ jobs:
           java-version: '17'
           distribution: 'adopt'
 
+      # Naviguer vers le répertoire racine du projet
+      - name: Navigate to project directory
+        run: cd EPF-MDE-DevOps-ASSELE-Maria
+
       # Construisez et testez votre application avec la commande la plus récente
       - name: Build and test with Maven
         run: mvn clean verify
