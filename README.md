@@ -24,7 +24,7 @@ The project is divided into three main parts:
 > You can access the report for this section using the following link : [#part01_report](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/tree/main/frontend)
 
 
-## Part 02 - Docker Session
+## Part 02 - GitHub Action Session
 
 In this part of the course, we'll be diving into the world of GitHub Actions. The aim is to set up a complete pipeline for testing and delivering our software application using GitHub Actions.
 
@@ -50,7 +50,7 @@ The project is divided into several main sections:
 > You can access the report for this section using the following link : [#part01_report](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/tree/main/frontend)
 
 
-## Part 2 - GitHub Action Session
+## Part 03 - Ansible
 
 ## Structure
 
