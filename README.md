@@ -21,7 +21,7 @@ The project is divided into three main parts:
 3. HTTP Server: This part deals with the deployment of an HTTP server, such as the Apache HTTP Server, to serve a static home page. We also configure this server as a reverse proxy to redirect traffic to our backend API.
 
 > [!NOTE]
-> You can access the report for this section using the following link : [#part01_report](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/tree/main/frontend)
+> You can access the report for this section using the following link : [#part01_report](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/blob/main/Reports_TP/part01_report.pdf)
 
 
 ## Part 02 - GitHub Action Session
