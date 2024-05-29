@@ -6,6 +6,8 @@ services:
             context: ./backend
         networks:
             - my-network
+        ports:
+            - "8088:8080"
         depends_on:
             - database
         container_name : backend-container
@@ -23,12 +25,23 @@ services:
         build:
             context: ./frontend
         ports:
-            - "8080:80"
+            - "80:80"
         networks:
             - my-network
         depends_on:
             - backend
         container_name : frontend-container
+
+    front:
+        build:
+            context: ./devops-front-main
+        ports:
+            - "8080:80"
+        networks:
+            - my-network
+        depends_on:
+            - httpd
+        container_name : devops-front-container
  
 networks:
     my-network:
