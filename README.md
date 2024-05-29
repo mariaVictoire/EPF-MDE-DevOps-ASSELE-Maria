@@ -42,15 +42,17 @@ The project is divided into several main sections:
 
     SonarCloud: Integrate SonarCloud to analyze code quality and ensure it adheres to best development practices.
 
-![Texte alternatif]("C:/Users/assel/Downloads/Sonar.png")
+ <img src="C:/Users/assel/Downloads/Sonar.png" height="60" width="60" >
 
 
 3. Bonus: Split Pipelines (Optional)
 
     Separate Pipelines: Organize jobs into distinct workflows for better management and conditional triggering based on successful test completion.
 
+ (ajouter image )
+
 > [!NOTE]
-> You can access the report for this section using the following link : [#part01_report](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/tree/main/frontend)
+> You can access the report for this section using the following link : [#part02_report](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/blob/main/Reports_TP/part02_report.pdf)
 
 
 ## Part 03 - Ansible
@@ -59,5 +61,5 @@ The project is divided into several main sections:
 
 
 > [!NOTE]
-> You can access the report for this section using the following link : [#part01_report](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/blob/main/Reports_TP/part03_report.pdf)
+> You can access the report for this section using the following link : [#part03_report](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/blob/main/Reports_TP/part03_report.pdf)
 
