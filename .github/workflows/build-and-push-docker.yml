@@ -38,3 +38,11 @@ jobs:
           context: "./frontend"
           push: ${{ github.ref == 'refs/heads/main' }}
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/docker-compose-frontend:latest
+
+      - name: Build and push devops-frontend image
+        uses: docker/build-push-action@v2
+        with:
+          context: "./devops-front-main"
+          push: ${{ github.ref == 'refs/heads/main' }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/epf-mde-devops-assele-maria-front:latest
+  
