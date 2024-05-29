@@ -3,7 +3,7 @@
 Here you'll find the practical work I did following the “Devops in Action” guide.
 
 > [!IMPORTANT]
-> Rather than cluttering up my README, I've chosen to write reports for each part of the TP. They contain my answers to the questions asked, relevant code extracts and screenshots illustrating the various results obtained. You can consult these reports on this repository by following this link : [#Reports](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/tree/main/frontend)
+> Rather than cluttering up my README, I've chosen to write reports for each part of the TP. They contain my answers to the questions asked, relevant code extracts and screenshots illustrating the various results obtained. You can consult these reports on this repository by following this link : [#Reports](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/tree/main/Reports_TP)
 
 
 ## Part 01 - Docker Session
