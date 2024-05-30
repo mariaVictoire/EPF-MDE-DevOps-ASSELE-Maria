@@ -14,11 +14,17 @@ The aim of this part is to implement a three-tier web application, consisting of
 
 The project is divided into three main parts:
 
-1. Database: This section concerns the configuration and deployment of a PostgreSQL database using Docker. 
+1. Database: This section concerns the configuration and deployment of a PostgreSQL database using Docker.
 
-2. Backend API: Here, we deploy a backend API written in Java using Spring Boot. Docker is used to build and run the API.
+        ![image](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/assets/159890985/5c5bbf5d-44ca-4821-a0a9-0648d7188a71)
 
-3. HTTP Server: This part deals with the deployment of an HTTP server, such as the Apache HTTP Server, to serve a static home page. We also configure this server as a reverse proxy to redirect traffic to our backend API.
+
+3. Backend API: Here, we deploy a backend API written in Java using Spring Boot. Docker is used to build and run the API.
+
+5. HTTP Server: This part deals with the deployment of an HTTP server, such as the Apache HTTP Server, to serve a static home page. We also configure this server as a reverse proxy to redirect traffic to our backend API.
+
+   ![image](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/assets/159890985/c62d0cdd-78aa-4521-9e1f-62c2202272dc)
+
 
 > [!NOTE]
 > You can access the report for this section using the following link : [#part01_report](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/blob/main/Reports_TP/part01_report.pdf)
