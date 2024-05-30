@@ -1,14 +1,15 @@
-name: Ansible deployement
+name: Ansible Deployment
 
 on:
   workflow_run:
     workflows: ["Build and Push Docker Image"]
     types:
       - completed
-    branches: main
+    branches: 
+      - main
 
 jobs:
-  deploy :
+  deploy:
     runs-on: ubuntu-22.04
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
@@ -25,6 +26,4 @@ jobs:
 
       - name: Deploy with SSH
         run: |
-          ssh -o StrictHostKeyChecking=no user@your-server-ip 'bash -s' < ./scripts/deploy.sh
-        env:
-          SSH_KNOWN_HOSTS: ${{ secrets.SSH_KNOWN_HOSTS }}
+          ssh -o StrictHostKeyChecking=no user@maria.asseletsetse.takima.cloud 'bash -s' < ./scripts/deploy.sh
