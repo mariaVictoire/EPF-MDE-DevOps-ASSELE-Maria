@@ -29,4 +29,4 @@ jobs:
       - name: Run Ansible Playbook
         run: ansible-playbook -i Ansible/inventories/setup.yml Ansible/playbook.yml
         env:
-          ANSIBLE_HOST_KEY_CHECKING: 'False'
+          ANSIBLE_HOST_KEY_CHECKING: ${{ secrets.SSH_PRIVATE_KEY }}
