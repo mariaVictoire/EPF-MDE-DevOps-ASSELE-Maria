@@ -16,7 +16,7 @@ The project is divided into three main parts:
 
 1. Database: This section concerns the configuration and deployment of a PostgreSQL database using Docker.
 
-        ![image](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/assets/159890985/5c5bbf5d-44ca-4821-a0a9-0648d7188a71)
+   ![image](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/assets/159890985/fb686002-31a1-4ab8-8895-8f134bbc89d4)
 
 
 3. Backend API: Here, we deploy a backend API written in Java using Spring Boot. Docker is used to build and run the API.
