@@ -21,9 +21,12 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: Add known hosts
-        run: echo "${{ secrets.SSH_KNOWN_HOSTS }}" >> ~/.ssh/known_hosts
-
-      - name: Deploy with SSH
+      - name: Install Ansible
         run: |
-          ssh -o StrictHostKeyChecking=no user@maria.asseletsetse.takima.cloud 'bash -s' < ./scripts/deploy.sh
+          sudo apt-get update
+          sudo apt-get install -y ansible
+  
+      - name: Run Ansible Playbook
+        run: ansible-playbook -i inventories/setup.yml playbook.yml
+        env:
+          ANSIBLE_HOST_KEY_CHECKING: 'False'
