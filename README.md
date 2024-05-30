@@ -42,7 +42,8 @@ The project is divided into several main sections:
 
     SonarCloud: Integrate SonarCloud to analyze code quality and ensure it adheres to best development practices.
 
- ![alt text](image.png)
+ 
+![image](https://github.com/mariaVictoire/EPF-MDE-DevOps-ASSELE-Maria/assets/159890985/4c2d0fad-762f-4d9f-86c3-de5ff1ce2515)
 
 
 
