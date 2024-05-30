@@ -1,0 +1,14 @@
+---
+# tasks file for roles/app
+- name: Pull the app image
+  docker_image:
+    name: mariavictoire/docker-compose-backend
+    tag: latest
+    source: pull
+ 
+- name: Run the app
+  docker_container:
+    name: backend-container
+    image: mariavictoire/docker-compose-backend
+    networks:
+      - name: "my-network"

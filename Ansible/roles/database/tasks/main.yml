@@ -1,0 +1,15 @@
+---
+# tasks file for roles/launch_database
+
+- name: Pull the database image
+  docker_image:
+    name: mariavictoire/docker-compose-database
+    tag: latest
+    source: pull
+ 
+- name: Run the database
+  docker_container:
+    name: database-container
+    image: mariavictoire/docker-compose-database
+    networks:
+      - name: "my-network"

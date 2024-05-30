@@ -42,7 +42,8 @@ The project is divided into several main sections:
 
     SonarCloud: Integrate SonarCloud to analyze code quality and ensure it adheres to best development practices.
 
- <img src="C:/Users/assel/Downloads/Sonar.png" height="60" width="60" >
+ ![alt text](image.png)
+
 
 
 3. Bonus: Split Pipelines (Optional)

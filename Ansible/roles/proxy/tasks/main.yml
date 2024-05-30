@@ -1,0 +1,16 @@
+---
+# tasks file for roles/proxy
+- name: Pull the proxy container
+  docker_image:
+    name: mariavictoire/docker-compose-frontend
+    tag: latest
+    source: pull
+
+- name: Run the proxy container
+  docker_container:
+    name: proxy-container
+    image: mariavictoire/docker-compose-frontend
+    ports:
+      - "80:80"
+    networks:
+      - name: "my-network"

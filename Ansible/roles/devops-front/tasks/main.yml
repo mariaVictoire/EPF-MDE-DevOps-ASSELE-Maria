@@ -1,0 +1,17 @@
+---
+# tasks file for roles/devops-front
+
+- name: Pull the front image
+  docker_image:
+    name: mariavictoire/epf-mde-devops-assele-maria-front
+    tag: latest
+    source: pull
+ 
+- name: Run the front
+  docker_container:
+    name: devopsFront-container
+    image: mariavictoire/epf-mde-devops-assele-maria-front
+    ports:
+      - "8080:80"
+    networks:
+      - name: "my-network"
