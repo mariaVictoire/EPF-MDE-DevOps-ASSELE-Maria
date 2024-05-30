@@ -1,1 +1,0 @@
-ansible-playbook -i inventories/setup.yml playbook.yml --vault-password-file .vault_pass
